@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio Amada Martha</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .carimg {
+            display: flex;
+            flex-direction: column; /* Altera a direção do flex para coluna */
+            align-items: center; /* Centraliza as imagens horizontalmente */
+            gap: 0; /* Remove o espaçamento entre as imagens */
+        }
+
+        .carimg img {
+            display: block;
+            margin: 0;
+            padding: 0;
+            border: none;
+            width: 100%; /* Ajusta a largura das imagens para ocupar 100% do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+    </style>
+</head>
+<body>
+    <header class="carimg">
+        <img src="./img/cardapioamada.jpeg" alt="">
+        <img src="./img/cardapioamada2.jpeg" alt="">
+    </header>
+</body>
+</html>
