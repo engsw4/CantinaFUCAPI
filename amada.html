@@ -11,14 +11,18 @@
             box-sizing: border-box;
         }
 
-        /* Impede rolagem lateral */
+        /* Impede rolagem horizontal e remove espaço extra */
         html, body {
             width: 100%;
-            min-height: 100vh;
-            overflow-x: hidden; /* Impede rolagem horizontal */
+            height: 100%;
+            overflow-x: hidden;
             background-color: #f8f8f8; /* Fundo neutro */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
+        /* Contêiner ajustado ao tamanho das imagens */
         .carimg {
             display: flex;
             flex-direction: column;
@@ -27,10 +31,15 @@
         }
 
         .carimg img {
-            width: 100%; /* Faz as imagens ocuparem toda a largura */
+            width: 100%;  /* Garante que a imagem ocupe a largura da tela */
             max-width: 100%;
             height: auto;
             display: block;
+        }
+
+        /* Ajusta o body para ter o tamanho exato das imagens */
+        body {
+            min-height: 100vh;
         }
     </style>
 </head>
