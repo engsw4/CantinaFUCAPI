@@ -1,7 +1,7 @@
 .header{
     background-color: #103e6e;
-    height: 130px;
-    
+    height: 150px;
+    padding-left: 1px;
 }
 
 .logo-fucapi {
@@ -23,11 +23,13 @@
 
 .h1header{
     position: absolute;
+    right: 20px;
+    left: 110px;
+    padding-right: 52px;
     color: floralwhite;
-    top: 39px; 
-    left: 40px; 
-    right: 3px; 
-    bottom: 10px;
+    font-size: arial;
+    padding-top: 3px;
+    padding-bottom: 1px;
 
 }
 
@@ -80,10 +82,9 @@ img{
     font-size: x-large;
     padding-left: 30px;
     padding-right: 70px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    
     
 }
 
@@ -229,7 +230,7 @@ img{
     
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 1000px) {
     .h1header
     .amada
     .cantinas
