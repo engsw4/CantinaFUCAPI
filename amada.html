@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,30 +11,26 @@
             box-sizing: border-box;
         }
 
-        /* Impede rolagem */
+        /* Impede rolagem lateral */
         html, body {
-            height: 100%;
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f8f8f8; /* Cor de fundo neutra */
+            width: 100%;
+            min-height: 100vh;
+            overflow-x: hidden; /* Impede rolagem horizontal */
+            background-color: #f8f8f8; /* Fundo neutro */
         }
 
         .carimg {
             display: flex;
-            flex-direction: column; 
-            align-items: center; 
-            width: 100vw;
-            height: 100vh;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
         }
 
         .carimg img {
-            width: auto;
+            width: 100%; /* Faz as imagens ocuparem toda a largura */
             max-width: 100%;
             height: auto;
-            max-height: 100vh;
-            object-fit: contain;
+            display: block;
         }
     </style>
 </head>
