@@ -1,4 +1,8 @@
-
+.header {
+    overflow: hidden;
+    height: 80%;
+    margin: 0;
+}
 .header{
     background-color: #103e6e;
     height: 150px;
