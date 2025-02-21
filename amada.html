@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardapio Amada Martha</title>
+    <title>Cardápio Amada Martha</title>
     <style>
         * {
             margin: 0;
@@ -11,34 +11,37 @@
             box-sizing: border-box;
         }
 
+        /* Impede rolagem */
+        html, body {
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f8f8; /* Cor de fundo neutra */
+        }
+
         .carimg {
             display: flex;
             flex-direction: column; 
             align-items: center; 
-            gap: 0;
+            width: 100vw;
+            height: 100vh;
         }
 
         .carimg img {
-            display: block;
-            margin: 0;
-            padding: 0;
-            border: none;
-            width: 100%; 
-            height: auto; 
-
-            html, body {
-              height: 100%;
-              margin: 0;
-              overflow-x: hidden;  
-              overflow-y: hidden;   
-            }
+            width: auto;
+            max-width: 100%;
+            height: auto;
+            max-height: 100vh;
+            object-fit: contain;
         }
     </style>
 </head>
 <body>
     <header class="carimg">
-        <img src="./cardapioamada.jpeg" alt="">
-        <img src="./cardapioamada2.jpeg" alt="">
+        <img src="./cardapioamada.jpeg" alt="Cardápio Amada Martha">
+        <img src="./cardapioamada2.jpeg" alt="Cardápio Amada Martha 2">
     </header>
 </body>
 </html>
