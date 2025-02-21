@@ -30,12 +30,11 @@ html, body {
 }
 
 .h1header {
-    padding-right: 52px;
+     padding-right: 52px;
     color: floralwhite;
     font-size: arial;
     padding-top: 3px;
     padding-bottom: 1px;
-    text-align: center; /* Centraliza o texto */
 }
 
 
