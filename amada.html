@@ -11,23 +11,19 @@
             box-sizing: border-box;
         }
 
-        /* Impede rolagem horizontal e limita a altura da página */
+        /* Remove rolagem lateral */
         html, body {
             width: 100%;
-            height: 100%;
-            overflow-x: hidden; /* Bloqueia rolagem lateral */
-            background-color: #f8f8f8; /* Fundo neutro */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            overflow-x: hidden; /* Bloqueia rolagem horizontal */
+            background-color: #f8f8f8;
         }
 
-        .container {
+        /* Ajusta altura mínima da página */
+        body {
+            min-height: 100vh; /* Garante que a página tenha no mínimo a altura da tela */
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 100%;
-            min-height: 100vh; /* Garante que o conteúdo ocupe toda a tela */
         }
 
         .carimg {
@@ -38,7 +34,7 @@
         }
 
         .carimg img {
-            width: 100%; /* Ajusta a largura */
+            width: 100%;
             max-width: 100%;
             height: auto;
             display: block;
@@ -46,11 +42,9 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <header class="carimg">
-            <img src="./cardapioamada.jpeg" alt="Cardápio Amada Martha">
-            <img src="./cardapioamada2.jpeg" alt="Cardápio Amada Martha 2">
-        </header>
-    </div>
+    <header class="carimg">
+        <img src="./cardapioamada.jpeg" alt="Cardápio Amada Martha">
+        <img src="./cardapioamada2.jpeg" alt="Cardápio Amada Martha 2">
+    </header>
 </body>
 </html>
