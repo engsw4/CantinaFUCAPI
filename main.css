@@ -1,6 +1,5 @@
-.content {
-    max-height: 100vh; /* Altura máxima do conteúdo */
-    overflow: auto;    /* Permite rolar somente se o conteúdo exceder */
+.geral {
+    overflow: hidden;
 }
 .header{
     background-color: #103e6e;
