@@ -28,8 +28,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./wppoficial.png");
-    background-size: cover;
+    
 }
 
 .h1header {
