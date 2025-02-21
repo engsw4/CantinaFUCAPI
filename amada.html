@@ -12,33 +12,33 @@
         }
 
         html, body {
-            width: 100%;
             height: 100%;
-            overflow-x: hidden;  /* Evita rolagem lateral */
-            overflow-y: hidden;  /* Evita rolagem vertical */
+            margin: 0;
+            overflow-x: hidden;  /* Impede rolagem lateral */
         }
 
-        .container {
+        body {
+            overflow-y: hidden;  /* Impede rolagem vertical */
+            height: 100vh;       /* A altura total da tela */
+        }
+
+        .cardapio-container {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            width: 100%;
-            height: 100vh;  /* Garantindo que a altura ocupe toda a tela */
-            overflow: hidden; /* Impede a rolagem da área do container */
+            height: 200vh; /* Duas imagens com altura de 100vh cada */
+            overflow-y: auto;  /* Permite rolagem apenas até o final das imagens */
         }
 
-        .container img {
+        .cardapio-container img {
             width: 100%;
-            max-width: 100%;
-            height: 100vh; /* Faz com que a imagem ocupe toda a altura da tela */
-            object-fit: cover; /* Ajusta a imagem sem distorcer */
+            height: 100vh;  /* Cada imagem terá 100vh, ocupando a tela inteira */
+            object-fit: cover;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="./cardapioamada.jpeg" alt="Cardápio Amada Martha">
+    <div class="cardapio-container">
+        <img src="./cardapioamada.jpeg" alt="Cardápio Amada Martha 1">
         <img src="./cardapioamada2.jpeg" alt="Cardápio Amada Martha 2">
     </div>
 </body>
