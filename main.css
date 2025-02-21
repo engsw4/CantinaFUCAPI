@@ -21,13 +21,6 @@
     
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    overflow: hidden; /* Impede a rolagem além da tela */
-    align-items: center;
-    
-}
 
 .h1header {
      padding-right: 52px;
