@@ -1,7 +1,7 @@
 .header{
     background-color: #103e6e;
-    height: 150px;
-    padding-left: 1px;
+    height: 130px;
+    
 }
 
 .logo-fucapi {
@@ -21,13 +21,14 @@
     
 }
 
-
-.h1header {
-    padding-right: 62px;
+.h1header{
+    position: absolute;
     color: floralwhite;
-    font-size: arial;
-    padding-top: 3px;
-    padding-bottom: 1px;
+    top: 39px; 
+    left: 40px; 
+    right: 3px; 
+    bottom: 10px;
+
 }
 
 
@@ -49,6 +50,7 @@
     padding-top: 20px; 
     font-size: x-large;
     font-family: Baskerville;
+   
 }
 
 ul {
@@ -78,9 +80,10 @@ img{
     font-size: x-large;
     padding-left: 30px;
     padding-right: 70px;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 
@@ -177,7 +180,6 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
     padding-left: 50px;
     padding-top: 50px;
     padding-bottom: 1px;
@@ -227,14 +229,14 @@ img{
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 728px) {
+    .h1header
     .amada
     .cantinas
     .carimg
     .center
     .exemplo5
     .gourmet
-    .h1header
     .h3header
     .header
     .ice
