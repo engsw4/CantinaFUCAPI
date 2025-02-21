@@ -1,21 +1,38 @@
 .header{
     background-color: #103e6e;
     height: 150px;
-    padding: 10px;
+    padding-left: 1px;
+}
+
+.logo-fucapi {
+
+    width: 80px;
+    height: 80px;
+    padding-top: 20px;
+
+}
+
+.Forms {
+    width: 60px; 
+    height: auto; 
+    position: absolute; 
+    top: 45px;
+    right: 17px;
     
 }
 
 .h1header{
+    padding-right: 52px;
     color: floralwhite;
     font-size: arial;
-    padding-left: 5px;
     padding-top: 3px;
     padding-bottom: 1px;
+
 }
 
 
     .carimg  {
-        width: 100%; /* Ou um valor fixo, como 300px */
+        width: 100%; 
         height: auto;
     }
 
@@ -29,7 +46,7 @@
 
 .center{
     text-align: center;
-    padding-top: 20px; /* Ajuste conforme a altura do cabeçalho */
+    padding-top: 20px; 
     font-size: x-large;
     font-family: Baskerville;
 }
@@ -59,7 +76,8 @@ img{
 .cantinas {
     padding: 16px;
     font-size: x-large;
-    padding-left: 25px;
+    padding-left: 30px;
+    padding-right: 70px;
     padding-top: 15px;
     padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -78,9 +96,9 @@ img{
 .MYACHE {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding-left: 20px;
-    padding-top: 40px;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-top: 50px;
     padding-bottom: 1px;
     text-decoration: none;
     font-size: medium;
@@ -88,48 +106,51 @@ img{
 }
 
 .MYACHE a {
+    align-items: center;
     line-height: 60px;
     margin: 0;
-
-    background: white;
-    color: #000000;
+    background: #103e6e;
+    color: white;
     border-radius: 10%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 1px;
     text-decoration: none;
-    border: 2px solid#103e6e;
+    
 
 }
 
 .gourmet {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding-left: 20px;
-    padding-top: 40px;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 50px;
     padding-bottom: 1px;
     text-decoration: none;
     font-size: medium;
 }
 
 .gourmet a {
+    align-items: center;
     line-height: 60px;
     margin: 0;
-    background: white;
-    color: #000000;
+    background: #103e6e;
+    color: white;
     border-radius: 10%;
     padding-left: 25px;
     padding-right: 25px;
     text-decoration: none;
-    border: 2px solid#103e6e;
+    
 }
 
 .ice {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     gap: 10px;
-    padding-left: 20px;
-    padding-top: 40px;
+    padding-left: 50px;
+    padding-top: 50px;
     padding-bottom: 1px;
     text-decoration: none;
     font-size: medium;
@@ -137,24 +158,28 @@ img{
 }
 
 .ice a {
+    align-items: center;
     line-height: 60px;
     margin: 0;
-    background: white;
-    color: #000000;
+    background: #103e6e;
+    color: white;
     border-radius: 10%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 58px;
+    padding-right: 58px;
     text-decoration: none;
-    border: 2px solid#103e6e;
+
+    box-sizing: border-box;
+    
 }
 
 .amada {
-    
+    align-items: center;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     gap: 10px;
-    padding-left: 20px;
-    padding-top: 40px;
+    padding-left: 50px;
+    padding-top: 50px;
     padding-bottom: 1px;
     text-decoration: none;
     font-size: medium;
@@ -162,37 +187,58 @@ img{
 
 }
 .amada a {
+    align-items: center;
     line-height: 60px;
     margin: 0;
-    background: white;
-    color: #000000;
+    background: #103e6e;
+    color: white;
     border-radius: 10%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-decoration: none;
-    border: 2px solid#103e6e;
+    
     
 }
 
 .exemplo5 {
+    
     display: flex;
+    justify-content: space-around;
     align-items: center;
     gap: 10px;
-    padding-left: 20px;
-    padding-top: 40px;
+    padding-left: 50px;
+    padding-top: 50px;
     padding-bottom: 1px;
     text-decoration: none;
     font-size: medium;
 }
 
 .exemplo5 a {
+    
+    align-items: center;
     line-height: 60px;
     margin: 0;
-    background: white;
-    color: #000000;
+    background: #103e6e;
+    color: white;
     border-radius: 10%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 43px;
+    padding-right: 43px;
     text-decoration: none;
-    border: 2px solid#103e6e;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .amada
+    .cantinas
+    .carimg
+    .center
+    .exemplo5
+    .gourmet
+    .h1header
+    .h3header
+    .header
+    .ice
+    .info
+    .logo
+    
 }
