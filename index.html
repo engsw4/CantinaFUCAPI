@@ -22,13 +22,44 @@
 
 <script>
     
-    function toggleScroll() {
-        document.body.classList.toggle('scroll-lock');
-        
-        
-        if(document.body.classList.contains('scroll-lock')) {
-            window.scrollTo(0, 0);
-        }
+   function lockScroll() {
+    
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+   
+    document.body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'hidden';
+    
+    
+    window.onscroll = function() {
+        window.scrollTo(scrollLeft, scrollTop);
+    };
+
+   
+    window.addEventListener('resize', () => {
+        window.scrollTo(scrollLeft, scrollTop);
+    });
+
+    
+    document.body.style.position = 'fixed';
+    document.body.style.width = '100%';
+    document.body.style.top = `-${scrollTop}px`;
+}
+
+
+lockScroll();
+/
+function unlockScroll() {
+    const scrollTop = parseInt(document.body.style.top || '0');
+    
+    document.body.style.overflow = 'auto';
+    document.documentElement.style.overflow = 'auto';
+    document.body.style.position = 'static';
+    
+    window.onscroll = null;
+    window.scrollTo(0, Math.abs(scrollTop));
+}
     
 </script>
         }
