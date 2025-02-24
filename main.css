@@ -1,10 +1,10 @@
 
+
 .header{
     background-color: #103e6e;
     height: 150px;
     padding-left: 1px;
 }
-
 
 .logo-fucapi {
 
@@ -17,14 +17,14 @@
 .Forms {
     width: 80px; 
     height: auto; 
-
+    position: absolute; 
     top: 35px;
     right: 10px;
     
 }
 
 .h1header{
-    
+    position: absolute;
     right: 20px;
     left: 110px;
     padding-right: 52px;
