@@ -1,4 +1,18 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh; /* Altura mínima igual à altura da tela */
+}
 
+body {
+    background-image: url("./wppoficial.png");
+    background-size: cover; /* Cobrir toda a área */
+    background-attachment: fixed; /* Fixar a imagem ao rolar */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat;
+}
 
 .header{
     background-color: #103e6e;
