@@ -11,21 +11,23 @@
     width: 80px;
     height: 80px;
     padding-top: 20px;
-    padding-right: 40px;
 
 }
 
 .Forms {
     width: 80px; 
-    height: auto;  
-   padding-top: 35px;
-    padding-right: 45px;    
+    height: auto; 
+    position: absolute; 
+    top: 35px;
+    right: 10px;
+    
 }
 
 .h1header{
-    
-   
-    padding-left:40px;
+    position: absolute;
+    right: 20px;
+    left: 110px;
+    padding-right: 52px;
     color: floralwhite;
     font-size: arial;
     padding-top: 3px;
@@ -48,7 +50,7 @@
 }
 
 .center{
-
+    text-align: center;
     padding-top: 20px; 
     font-size: x-large;
     font-family: Baskerville;
@@ -93,7 +95,7 @@ img{
     font-family: Helvetica;
     padding-top: 22px;
     padding-bottom: 11px;
-    padding-right: 50px;
+    padding-right: 20px;
 
 }
 
