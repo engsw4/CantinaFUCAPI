@@ -11,7 +11,28 @@
         
         body {
             background-image: url("./img/wppoficial.png");
-            overflow: hidden;
+            <style>
+    .scroll-lock {
+        overflow: hidden !important;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<script>
+    // Ativar/Desativar com botão
+    function toggleScroll() {
+        document.body.classList.toggle('scroll-lock');
+        
+        // Ajuste para mobile
+        if(document.body.classList.contains('scroll-lock')) {
+            window.scrollTo(0, 0);
+        }
+    }
+</script>
+
+<button onclick="toggleScroll()">Bloquear/Desbloquear Scroll</button>
         }
     </style>
 </head>
