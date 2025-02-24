@@ -6,11 +6,10 @@
 }
 
 html, body {
-    overflow: hidden !important;
-    height: 100% !important;
-    overflow: hidden !important;
-    height: 100% !important;
-    width: 100% !important;
+    overflow: hidden; 
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .header {
