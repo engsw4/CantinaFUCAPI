@@ -8,7 +8,6 @@
     width: 80px;
     height: 80px;
     padding-top: 20px;
-    padding-right: 40px;
 }
 
 .Forms {
@@ -81,7 +80,7 @@ img{
     font-family: Helvetica;
     padding-top: 35px;
     padding-bottom: 11px;
-    height: auto;
+    align-items: center;
 }
 
 .MYACHE {
