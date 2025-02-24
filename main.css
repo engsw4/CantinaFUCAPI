@@ -89,7 +89,8 @@ img{
     padding-top: 50px;
     padding-bottom: 1px;
     text-decoration: none;
-    font-size: medium;    
+    font-size: medium;
+    border-radius: 40%;
 }
 
 .MYACHE a {
