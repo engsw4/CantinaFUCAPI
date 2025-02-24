@@ -3,11 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 100vh; /* Altura mínima igual à altura da tela */
-}
-
-body {
-    background-attachment: fixed; /* Fixar a imagem ao rolar */
+    min-height: 100vh;
 }
 
 .header{
