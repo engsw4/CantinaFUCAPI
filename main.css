@@ -14,8 +14,8 @@
 .Forms {
     width: 80px; 
     height: auto;  
-    top: 35px;
-    right: 10px;  
+    padding-top: 35px;
+    padding-right: 40px;
 }
 
 .h1header{    
@@ -79,9 +79,9 @@ img{
 .info{
     font-size: x-large;
     font-family: Helvetica;
-    padding-top: 22px;
+    padding-top: 35px;
     padding-bottom: 11px;
-    padding-right: 120px;
+    padding-right: 140px;
 }
 
 .MYACHE {
