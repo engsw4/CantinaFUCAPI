@@ -7,11 +7,7 @@ html, body {
 }
 
 body {
-    
-    background-size: cover; /* Cobrir toda a área */
     background-attachment: fixed; /* Fixar a imagem ao rolar */
-    background-position: center; /* Centralizar a imagem */
-    background-repeat: no-repeat;
 }
 
 .header{
