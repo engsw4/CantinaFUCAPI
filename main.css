@@ -1,4 +1,9 @@
-
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url("./wppoficial.png");
 
 .header{
     background-color: #103e6e;
