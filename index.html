@@ -59,6 +59,13 @@ function unlockScroll() {
     
     window.onscroll = null;
     window.scrollTo(0, Math.abs(scrollTop));
+
+    document.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+}, { passive: false });
+
+// Prevenir double-tap zoom
+document.documentElement.style.touchAction = 'none';
 }
     
 </script>
