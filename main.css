@@ -11,14 +11,6 @@ html, body {
     overflow-x: hidden;
 }
 
-body {
-    background-image: url("./wppoficial.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    font-family: Arial, sans-serif;
-}
-
 .header {
     background-color: #103e6e;
     padding: 1rem;
