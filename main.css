@@ -1,218 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/wppoficial.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
-        background-color: #103e6e;
-        height: 150px;
-        display: flex;
-        align-items: center;
-        padding: 0 20px;
-    }
+    background-color: #103e6e;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
 
-    .logo-fucapi {
-        width: 50px;
-        height: 50px;
-    }
+ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
-    .Forms {
-        width: 80px;
-        height: auto;
-    }
+.Forms {
+    width: 80px;
+    height: auto;
+}
 
-    .h1header {
-        color: floralwhite;
-        margin: 0;
-        white-space: nowrap;
-        font-size: 1.5rem;
-    }
+.logo-fucapi {
+    width: 50px;
+    height: 50px;
+}
 
-    ul {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
+.h1header {
+    color: floralwhite;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 1.5rem;
+}
 
-    
-    .carimg  {
-        width: 100%; 
-        height: auto;
-    }
+.cantinas {
+    padding: 16px;
+    font-size: x-large;
+    padding-left: 30px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
 
-    .h3header{
-        color: #fff;
-        font-size: arial;
-        padding-left: 5px;
-        padding-top: 3px;
-        padding-bottom: 1px;
-    }
+.MYACHE, .ice, .gourmet, .amada, .exemplo5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 1px;
+    text-decoration: none;
+    font-size: medium;
+}
 
-    .center{  
-        align-items: center;
-        padding-top: 20px; 
-        font-size: x-large;
-        font-family: Baskerville;  
-    }
+.MYACHE a, .ice a, .gourmet a, .amada a, .exemplo5 a {
+    align-items: center;
+    line-height: 60px;
+    margin: 0;
+    background: #103e6e;
+    color: white;
+    border-radius: 23%;
+    padding: 10px 20px;
+    text-decoration: none;
+}
 
-    img{
-        width: 120px;
-        height: 120px;
+@media screen and (max-width: 1000px) {
+    .h1header, .amada, .cantinas, .carimg, .center, .exemplo5, .gourmet, .h3header, .header, .ice, .info, .logo {
+        /* Adicione ajustes responsivos aqui, se necessário */
     }
-
-    .logo {
-        border: 2px solid #103e6e;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;    
-    }
-
-    .cantinas {
-        padding: 16px;
-        font-size: x-large;
-        padding-left: 30px;
-        padding-right: 70px;
-        padding-top: 15px;
-        padding-bottom: 10px;
-        font-family: Arial, Helvetica, sans-serif;    
-    }
-
-    .info{
-        font-size: x-large;
-        font-family: Helvetica;
-    }
-
-    .MYACHE {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding-left: 50px;
-        padding-top: 50px;
-        padding-bottom: 1px;
-        text-decoration: none;
-        font-size: medium;
-        border-radius: 40%;
-    }
-
-    .MYACHE a {
-        align-items: center;
-        line-height: 60px;
-        margin: 0;
-        background: #103e6e;
-        color: white;
-        border-radius: 23%;
-        padding-left: 65px;
-        padding-right: 65px;
-        padding-top: 1px;
-        text-decoration: none;
-    }
-
-    .gourmet {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-bottom: 1px;
-        text-decoration: none;
-        font-size: medium;
-    }
-
-    .gourmet a {
-        align-items: center;
-        line-height: 60px;
-        margin: 0;
-        background: #103e6e;
-        color: white;
-        border-radius: 23%;
-        padding-left: 25px;
-        padding-right: 25px;
-        text-decoration: none;    
-    }
-
-    .ice {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        gap: 10px;
-        padding-left: 50px;
-        padding-top: 50px;
-        padding-bottom: 1px;
-        text-decoration: none;
-        font-size: medium;
-        font-family: Arial;
-    }
-
-    .ice a {
-        align-items: center;
-        line-height: 60px;
-        margin: 0;
-        background: #103e6e;
-        color: white;
-        border-radius: 23%;
-        padding-left: 58px;
-        padding-right: 58px;
-        text-decoration: none;
-        box-sizing: border-box;    
-    }
-
-    .amada {
-        align-items: center;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-left: 50px;
-        padding-top: 50px;
-        padding-bottom: 1px;
-        text-decoration: none;
-        font-size: medium;
-    }
-    .amada a {
-        align-items: center;
-        line-height: 60px;
-        margin: 0;
-        background: #103e6e;
-        color: white;
-        border-radius: 23%;
-        padding-left: 40px;
-        padding-right: 40px;
-        text-decoration: none;    
-    }
-
-    .exemplo5 {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 10px;
-        padding-left: 50px;
-        padding-top: 50px;
-        padding-bottom: 1px;
-        text-decoration: none;
-        font-size: medium;
-    }
-
-    .exemplo5 a {
-        align-items: center;
-        line-height: 60px;
-        margin: 0;
-        background: #103e6e;
-        color: white;
-        border-radius: 23%;
-        padding-left: 43px;
-        padding-right: 43px;
-        text-decoration: none;    
-    }
-
-    @media screen and (max-width: 1000px) {
-        .h1header
-        .amada
-        .cantinas
-        .carimg
-        .center
-        .exemplo5
-        .gourmet
-        .h3header
-        .header
-        .ice
-        .info
-        .logo
-    }
+}
