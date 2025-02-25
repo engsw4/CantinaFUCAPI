@@ -34,12 +34,6 @@ ul {
     padding: 0;
 }
 
-/* Ajuste para posicionar o Forms no canto direito */
-ul li:last-child {
-    margin-left: auto; /* Empurra o ícone para o canto direito */
-    padding-right: 20px; /* Adiciona um espaçamento à direita */
-}
-
 .carimg {
     width: 100%;
     height: auto;
