@@ -27,7 +27,6 @@ ul {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -35,7 +34,8 @@ ul {
 
 /* Ajuste para posicionar o Forms no canto direito */
 ul li:last-child {
-    margin-left: auto; /* Move o último item (Forms) para o canto direito */
+    margin-left: auto; /* Empurra o ícone para o canto direito */
+    padding-right: 20px; /* Adiciona um espaçamento à direita */
 }
 
 .carimg {
