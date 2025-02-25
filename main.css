@@ -1,50 +1,86 @@
-.header {
+ .header {
     background-color: #103e6e;
     height: 150px;
     display: flex;
-    align-items: center ;
+    align-items: center;
+    padding: 0 20px;
 }
+
 .logo-fucapi {
     width: 50px;
     height: 50px;
-    padding-left: 20px;
-    
+}
+
+.Forms {
+    width: 80px;
+    height: auto;
 }
 
 .h1header {
-    
     color: floralwhite;
-    padding-left: 10px;
-    padding-top: 4px;
+    margin: 0;
+    white-space: nowrap;
     font-size: 1.5rem;
-
-}
-.Forms {
-    width: 80px;
-    height: 80px;
-    padding-top: 7px;
-
 }
 
 ul {
     display: flex;
+    width: 100%;
     align-items: center;
     list-style: none;
-    
+    margin: 0;
+    padding: 0;
 }
 
+/* Ajuste para posicionar o Forms no canto direito */
+ul li:last-child {
+    margin-left: auto; /* Empurra o ícone para o canto direito */
+    padding-right: 20px; /* Adiciona um espaçamento à direita */
+}
+
+.carimg {
+    width: 100%;
+    height: auto;
+}
+
+.h3header {
+    color: #fff;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+
+.center {
+    align-items: center;
+    padding-top: 20px;
+    font-size: x-large;
+    font-family: Baskerville;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.logo {
+    border: 2px solid #103e6e;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 
 .cantinas {
-   
+    padding: 16px;
     font-size: x-large;
     padding-left: 30px;
     padding-right: 70px;
     padding-top: 15px;
     padding-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.info{
+.info {
     font-size: x-large;
     font-family: Helvetica;
 }
@@ -57,7 +93,8 @@ ul {
     padding-top: 50px;
     padding-bottom: 1px;
     text-decoration: none;
-    font-size: medium;    
+    font-size: medium;
+    border-radius: 40%;
 }
 
 .MYACHE a {
@@ -66,7 +103,7 @@ ul {
     margin: 0;
     background: #103e6e;
     color: white;
-    border-radius: 10%;
+    border-radius: 23%;
     padding-left: 65px;
     padding-right: 65px;
     padding-top: 1px;
@@ -90,10 +127,10 @@ ul {
     margin: 0;
     background: #103e6e;
     color: white;
-    border-radius: 10%;
+    border-radius: 23%;
     padding-left: 25px;
     padding-right: 25px;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .ice {
@@ -115,11 +152,11 @@ ul {
     margin: 0;
     background: #103e6e;
     color: white;
-    border-radius: 10%;
+    border-radius: 23%;
     padding-left: 58px;
     padding-right: 58px;
     text-decoration: none;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 .amada {
@@ -133,20 +170,20 @@ ul {
     text-decoration: none;
     font-size: medium;
 }
+
 .amada a {
     align-items: center;
     line-height: 60px;
     margin: 0;
     background: #103e6e;
     color: white;
-    border-radius: 10%;
+    border-radius: 23%;
     padding-left: 40px;
     padding-right: 40px;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .exemplo5 {
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -159,22 +196,28 @@ ul {
 }
 
 .exemplo5 a {
-    
     align-items: center;
     line-height: 60px;
     margin: 0;
     background: #103e6e;
     color: white;
-    border-radius: 10%;
+    border-radius: 23%;
     padding-left: 43px;
     padding-right: 43px;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .h1header
+    .amada
+    .cantinas
+    .carimg
+    .center
+    .exemplo5
+    .gourmet
+    .h3header
     .header
-    .Forms
-
-    
+    .ice
+    .info
+    .logo
 }
