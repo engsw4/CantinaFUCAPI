@@ -5,9 +5,6 @@
     display: flex;
     align-items: center;
     padding: 0 20px;
-    top: 0;
-    left: 0;
-    z-index: 1000;
 }
 
 .logo-fucapi {
@@ -97,7 +94,7 @@ img {
     align-items: center;
     justify-content: space-around;
     padding-left: 50px;
-    top: 250px;
+    padding-top: 50px;
     padding-bottom: 1px;
     text-decoration: none;
     font-size: medium;
